@@ -241,7 +241,7 @@ def main():
             st.session_state.articles = articles
 
         # --- Audio Generation / Verification ---
-        max_articles_to_process = min(10, len(articles)) # Limit processing
+        max_articles_to_process = min(100, len(articles)) # Limit processing
         st.subheader(f"Verificando/Gerando Áudios (até {max_articles_to_process} artigos)")
 
         # Initialize OpenAI client ONLY if API key is provided and confirmed
