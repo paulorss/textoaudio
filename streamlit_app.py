@@ -246,9 +246,7 @@ def main():
          st.warning("O PDF foi carregado, mas não foi possível extrair o texto para exibição separada.")
 
 
-# --- Sidebar ---
-st.sidebar.warning("⚠️ **Aviso:** Lembre-se de informar aos usuários finais se o áudio foi gerado por Inteligência Artificial (IA).")
-st.sidebar.info("Selecione texto no PDF visualizado ou no texto extraído, copie, cole na área designada (Etapa 4) e clique em 'Gerar Áudio'.")
+
 
 # --- Entry Point ---
 if __name__ == "__main__":
